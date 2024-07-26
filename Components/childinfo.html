@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <title> CHILD INFO</title>
+        <style>
+            .flex-container{
+                display: flex;
+                flex-direction: row;
+            }
+            .flex-container> div{
+                width: 100px;
+                padding: 2opx;
+                font-size: 30px;
+                align-items: stretch
+            }
+
+            .footer {
+                
+                background-color: skyblue;
+                color: black;
+                text-align: center;
+            }
+
+            input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button{
+                display: none;
+            }
+        </style>
+    </head>
+    <body bgcolor="skyblue">
+        <h1 align="center" backgroundcolor="black"> CHILD INFORMATION CAPTURE</h1> 
+        <hr size="4" width="100%" NOSHADE> <pre><h2> <b>
+        Referring Facility:    
+        Phone:
+        Fax:
+        Contact Person:</pre></b>
+        </h2>
+        <hr size="4" width="100%" NOSHADE>
+        
+        <div class="flex\">
+        <h2><b>Childs infomation section</b></h2>    
+        Sir Name: <input class="input1" type="text" name="Sir Name"> 
+        First name: <input type="text" name="First Name">   
+        Second Name: <input class="input3" type="text" name="Second Name">   
+        </div>
+         <br>
+        <div class="flex-container">
+        Date of Birth: <input type="date" name ="date">  </div> <br>
+        <div class="flex-container">
+         <p>Gender:
+         <input type="checkbox" id="male"name="male"value="male">
+         <label for="male">Male</label>
+         <input type="checkbox" id="female"name="female"value="female">
+         <label for ="female"> Female</label> </p> <br>
+        </div>
+        <hr size="4" width="100%" NOSHADE>
+        <h2><b> Parents / Guardians information section </b></h2>
+        <div>
+        Sir Name: <input class="input1" type="text" name="Sir Name"> 
+        First name: <input type="text" name="First Name">
+        Id Number: <input type="number" name="Id Number" maxlength="8">
+        </div> <br>
+        Address: <input type="text" name="Address"> 
+        Phone Number:<input type="Number" name="Phone Number" maxlength="10">
+        Email Address: <input type="text" name="Email Address" size="50">
+        <P>Which hospital department are you going to?</P>
+        Hospital department:
+        <input type="checkbox" id="General Hospital" name="General Hospital" value="General Hospital">
+        <label for="General Hospital"> General Hospital </label>
+        <input type="checkbox" id="Eye Care Solutions" name="optitian" value="eye">
+        <label for="eye">Eye Care Solutions</label> 
+        <input type="checkbox" id="Dental Surgery" name="Dentist" value="teeth">
+        <label for="teeth">Dental Surgery</label>
+        <input type="checkbox" id="Blood Test And X-Rays" name="Labatory" value="lab">
+        <label for="lab">Blood Test and X-Rays</label>
+        <p> What is the purpose for your visit</p>
+        Visitation Purpose: 
+        <input type="checkbox" id="Appointment" name="Appointment" value="Appointment">
+        <label for="Appointment">Appointment</label>
+        <input type="checkbox" id="Check Up" name="Check Up" value="Check Up">
+        <label for="Check Up"> Check Up</label>
+        <input type="checkbox" id="Vaccination" name="Vaccination" value="Vaccination">
+        <label for="Vaccination"> Vaccination</label>
+		<hr size="4" width="100%" NOSHADE>
+		 <h2><b> Payment method section </b></h2>
+		<p>Payment method:
+		<input type="checkbox" id="Cash" name="Payment_method" value="Cash">
+		<label for="Cash">Cash</label>
+		<input type="checkbox" id="Mobile_pay" name="Payment_method" value="Mobile-pay">
+		<label for="Mobile_pay">Mobile_pay</label>
+ 		<input type="checkbox" id="Insurance" name="Payment_method" value="Insurance">
+		<label for="Insurance">Insurance</label>
+		<input type="checkbox" id="NHIF" name="Payment_method" value="NHIF">
+		<label for="NHIF">N_H_I_F</label></p> <br>
+	
+        <div>
+            <footer class="footer">
+               <p><b><i> GET WELL SOON</i></b></p> 
+               <p> &copy;Kinyua Ephantus</p> 
+            </footer>  
+              </div>  
+    </body>
+</html>

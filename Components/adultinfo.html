@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title> ADULT INFO </title>
+        <style>
+            .flex-container{
+                display: flex;
+                flex-direction: row;
+            }
+            .flex-container> div{
+                width: 100px;
+                padding: 2opx;
+                font-size: 30px;
+                align-items: stretch
+            }
+
+            .footer {
+                
+                background-color: skyblue;
+                color: black grey;
+                text-align: center;
+            }
+
+            input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button{
+                display: none;
+            }
+        </style>
+    </head>
+    <body bgcolor="skyblue">
+        <h1 align="center" backgroundcolor="black"> ADULT INFORMATION CAPTURE</h1> 
+        <hr size="4" width="100%" NOSHADE> <pre><h2> <b>
+        Referring Facility:    
+        Phone:
+        Fax:
+        Contact Person:</pre></b>
+        </h2>
+        <hr size="4" width="100%" NOSHADE>
+        
+        <div class="flex">
+		<h2><b>Adults' infomation section</b></h2>    
+        Sir Name: <input class="input1" type="text" name="Sir Name"> 
+        First name: <input class="input2" type="text" name="First Name">   
+        Second Name: <input class="input3" type="text" name="Second Name">   
+        </div>
+         <br>
+        <div class="flex-container">
+        ID Number: <input type="numbers" name="ID Number" maxlength="8">
+        Date of Birth: <input type="date" name ="date">  </div> <br>
+         <div class="flex-container">
+         <p>Gender:
+         <input type="checkbox" id="male"name="male"value="male">
+         <label for="male">Male</label>
+         <input type="checkbox" id="female"name="female"value="female">
+         <label for ="female"> Female</label> </p> <br>
+        </div>
+		<p>Marriage status: 
+        <input type="checkbox" id="married"name="married"value="married">
+        <label for="married">Married</label> 
+        <input type="checkbox" id="single"name="single" value="single">
+        <label for="vehicle2">Single</label>
+        <input type="checkbox" id="widowed"name="widowed" value="widowed">
+        <label for="widowed"> Widowed</label>
+        <input type="checkbox" id="divorced" name="divorced"value="divorced">
+        <label for="divorced"> Divorced</label> 
+        </div>
+        </p><br>
+        Address: <input type="text" name="Address"> 
+        Phone Number:<input maxlength="10" type="number" name="Phone Number" >
+        Email Address: <input type="text" name="Email Address" size="50">
+        <P>Which hospital department are you going to?</P>
+        Hospital department:
+        <input type="checkbox" id="General Hospital" name="General Hospital" value="General Hospital">
+        <label for="General Hospital"> General Hospital </label>
+        <input type="checkbox" id="Eye Care Solutions" name="optitian" value="eye">
+        <label for="eye">Eye Care Solutions</label> 
+        <input type="checkbox" id="Dental Surgery" name="Dentist" value="teeth">
+        <label for="teeth">Dental Surgery</label>
+        <input type="checkbox" id="Blood Test And X-Rays" name="Labatory" value="lab">
+        <label for="lab">Blood Test and X-Rays</label>
+        <p> What is the purpose for your visit</p>
+        Visitation Purpose: 
+        <input type="checkbox" id="Appointment" name="Appointment" value="Appointment">
+        <label for="Appointment">Appointment</label>
+        <input type="checkbox" id="Check Up" name="Check Up" value="Check Up">
+        <label for="Check Up"> Check Up</label>
+		<hr size="4" width="100%" NOSHADE>
+		 <h2><b> Payment method section </b></h2>
+		<p>Payment method:
+		<input type="checkbox" id="Cash" name="Cash" value="Cash">
+		<label for="Cash">Cash</label>
+		<input type="checkbox" id="Mobile_pay" name="Mobile_pay" value="Mobile-pay">
+		<label for="Mobile_pay">Mobile_pay</label>
+ 		<input type="checkbox" id="Insurance" name="Insurance" value="Insurance">
+		<label for="Insurance">Insurance</label>
+		<input type="checkbox" id="NHIF" name="NHIF" value="NHIF">
+		<label for="NHIF">N_H_I_F</label></p> <br>
+        <div>
+    <footer class="footer">
+       <p><b><i> GET WELL SOON</i></b></p> 
+       <p> &copy;Kinyua Ephantus</p> 
+    </footer>  
+      </div>  
+    </body>
+</html>

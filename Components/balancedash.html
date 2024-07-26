@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Balance</title>
+        <link rel="stylesheet" href="balancedash_style.css">
+        
+        <script src="https://kit.fontawesome.com/79d8ba98e5.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <div class="sidebar">
+            <div class="logo"></div>
+            <ul class="menu">
+                <li >
+                    <a href="finance.html" >
+                        <i class="fas fa-tachometer-alt"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="incomedash.html">
+                        <i class="fa-solid fa-chart-line"></i>
+                        <span>Income</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="expendituredash.html">
+                        <i class="fas fa-briefcase"></i>
+                        <span>Expenditure</span>
+                    </a>
+                </li>
+
+                <li class="active">
+                    <a href="balancedash.html">
+                        <i class="fas fa-question-circle"></i>
+                        <span>Balance</span>
+                    </a>
+                </li>
+
+                <li class="logout">
+                    <a href="login.html">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        <span>Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <div class="header">
+                <div class="header-title">
+                    <span>Primary</span>
+                    <h2>Dashboard</h2>
+                </div>
+                <div class="user-info">
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="Search">
+                    </div>
+                    <img src="IMAGES/fullfront.jpg">
+                </div>
+            </div>
+
+            <div class="tabular-wrapper">
+                <h3 class="main-title">Balance Data</h3>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Transaction Type</th>
+                                <th>Description</th>
+                                <th>Amount</th>                                
+                                <th>Status</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2023-05-01</td>
+                                <td>MPESA</td>
+                                <td>Payment</td>
+                                <td>KES20,000</td>                                
+                                <td>Pending</td>
+                                <td><button>Edit</button></td>
+                            </tr>
+                            
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="7">Cash At Hand:</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

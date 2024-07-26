@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="adultappstyle.css">
+    </head>
+    <body>
+        <div class="container">
+            <form action="" method="post">
+                <h2>Appointment</h2>
+                <div class="content">
+                    <div class="input-box">
+                        <label for="name">Full Name</label>
+                        <input type="text" placeholder="Full Name" name="name" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="name">Age</label>
+                        <input type="numbers" placeholder="Age" name="age" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="name">Date Of Birth</label>
+                        <input type="Date" placeholder="D.O.B" name="dob" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="name">Parent's ID Number</label>
+                        <input type="numbers" placeholder="ID Number" name="ID NO" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="name"> Parent's Phone Number</label>
+                        <input type="tel" placeholder="07********" name="contact" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="name">Parent's Email</label>
+                        <input type="email" placeholder="Email" name="email" required>
+                    </div>
+                    <span class="gender">Gender</span>
+                    <div class="gender-cat">
+                        <input type="radio" name="gender" id="male">
+                        <label for="gender">Male</label>
+                        <input type="radio" name="gender" id="female">
+                        <label for="gender">Female</label>
+                    </div>  
+                </div>
+                <div class="button-con">
+                    <button type="submit">Book Appointment</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
